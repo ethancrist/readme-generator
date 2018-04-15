@@ -7,7 +7,7 @@ This very README was generated from readme-generator!
 ## Installation
 
 ```
-$ npm install readme-generator
+npm install readme-generator
 ```
 
 ## API

@@ -4,7 +4,7 @@
  * This very README was generated from readme-generator!
  * @installation
  * ```
- * $ npm install readme-generator
+ * npm install readme-generator
  * ```
  * @author ethancrist
  **/

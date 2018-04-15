@@ -5,7 +5,7 @@
  * @logo https://raw.githubusercontent.com/javascript-obfuscator/javascript-obfuscator/master/images/logo.png
  * @installation
  * ```
- * $ npm install my-package
+ * npm install my-package
  * ```
  * or
  * ```
