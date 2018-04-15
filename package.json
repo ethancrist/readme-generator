@@ -1,0 +1,23 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Auto-generate a beautiful README for a project based on its code comments.",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethancrist/readme-generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator"
+  ],
+  "author": "ethancrist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethancrist/readme-generator/issues"
+  },
+  "homepage": "https://github.com/ethancrist/readme-generator#readme"
+}
