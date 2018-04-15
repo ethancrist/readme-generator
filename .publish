@@ -1,0 +1,5 @@
+#!/bin/bash
+nodejs generate.js generate.js
+cp README.gen.md README.md
+git-push
+
