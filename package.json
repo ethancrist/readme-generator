@@ -1,6 +1,6 @@
 {
-  "name": "readme-generate",
-  "version": "1.0.0",
+  "name": "readme-auto",
+  "version": "1.0.1",
   "description": "Auto-generate a beautiful README for a project based on its code comments.",
   "main": "generate.js",
   "scripts": {
