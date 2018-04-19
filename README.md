@@ -45,5 +45,3 @@ generate -m mainFile.js -i ./node_modules`
 Would create documentation in the README for all files in the current directory and child directories EXCEPT anything in node_modules.
 
 
-###### [readme.gif](readme.gif)
-
