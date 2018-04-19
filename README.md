@@ -40,7 +40,7 @@ Alias: `-i` Type: `string` Required: `false`
 
 Ignore a code file or a set of code files within a directory when creating the README. For example:
 ```bash
-generate -m mainFile.js -i ./node_modules`
+generate -m mainFile.js -i node_modules
 ```
 Would create documentation in the README for all files in the current directory and child directories EXCEPT anything in node_modules.
 
