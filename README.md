@@ -10,7 +10,7 @@ Supports any language that uses star comments.
 ## Installation
 
 ```
-npm i -g readme-generator
+npm i -g readme-generate
 ```
 
 ## API

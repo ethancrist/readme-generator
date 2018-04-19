@@ -6,7 +6,7 @@
  * Supports any language that uses star comments.
  * @installation
  * ```
- * npm i -g readme-generator
+ * npm i -g readme-generate
  * ```
  * @author ethancrist
  **/
