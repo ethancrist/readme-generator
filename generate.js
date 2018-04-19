@@ -16,18 +16,21 @@ const parser = require('comment-parser')
  * @meta generate [command]
  * @purpose Generate a README using any child code files of the current directory.
  * @usage ```bash
- 		  node generate -m "<mainFile.js>" [ -i <ignore dir> ]
- 		  ```
+ *        generate -m "<mainFile.js>" [ -i <ignore dir> ]
+ *        ```
  * @options ##### `--mainFile`
- *			Alias: `-m` Type: `string` Required: `true`
- *			The relative location of the main file to your code. This will be the file whose code comments supply application metadata.
- *			##### `--ignore`
- *			Alias: `-i` Type: `string` Required: `false`
- *			Ignore a code file or a set of code files within a directory when creating the README. For example:
- *			```bash
- * 			node generate -m mainFile.js -i ./node_modules`
- * 			```
- *			Would create documentation in the README for all files in the current directory and child directories EXCEPT anything in node_modules.
+ *          Alias: `-m` Type: `string` Required: `true`
+ *
+ *          The relative location of the main file to your code. This will be the file whose code comments supply application metadata.
+ *
+ *          ##### `--ignore`
+ *          Alias: `-i` Type: `string` Required: `false`
+ *
+ *          Ignore a code file or a set of code files within a directory when creating the README. For example:
+ *          ```bash
+ *          generate -m mainFile.js -i ./node_modules`
+ *          ```
+ *          Would create documentation in the README for all files in the current directory and child directories EXCEPT anything in node_modules.
  **/
 
 const optionDefinitions = [
