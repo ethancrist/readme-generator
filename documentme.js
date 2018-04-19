@@ -24,18 +24,25 @@ var Test = {
 	 	/**
          * @meta logAlert [function]
 		 * @purpose Log and alert a message in one call.
-		 * @usage logAlert('Log and alert me!');
-		 * @returns [string] The message sent in.
+		 * @usage `logAlert('Log and alert me!');`
+		 * @returns Type: `string` The message sent in.
 		 **/
 		 console.log(message);
 		 alert(message);
 	 },
 	 
-	 doSomething: function() {
+	 doSomething: function(options) {
 	 	/**
          * @meta doSomething [function]
 	 	 * @purpose Do something special.
+	 	 * @options ##### `options.message`
+	 	 *		    	Type: `string` Default: `Hello!`
+	 	 *
+	 	 * 				Removes string literals and place them in a special array. For instance, the string `"Hello World"` in `var m = "Hello World";` will be replaced with something like `var m = _0x12c456[0x1];`
+	 	 * 			##### `options.logTwice`
+	 	 * 				Type: `boolean` Default: `true`
 	 	 **/
+	 	 console.log(options.message)
 	 }
 	 	 
 };
