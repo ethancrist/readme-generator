@@ -16,11 +16,14 @@ npm i -g readme-generator
 ###### [generate.js](generate.js)
 
 ### [`generate [command]`](generate.js#L14)
-Generate a readme using any child code files of the current directory.
+Generate a README using any child code files of the current directory.
 
 #### Usage
 
-`node generate -m "<mainFile.js>" [ -i <ignore dir> ]`
+```bash
+
+node generate -m "<mainFile.js>" [ -i <ignore dir> ]
+```
 
 #### Options
 

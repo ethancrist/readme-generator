@@ -14,8 +14,10 @@ const parser = require('comment-parser')
 
 /**
  * @meta generate [command]
- * @purpose Generate a readme using any child code files of the current directory.
- * @usage `node generate -m "<mainFile.js>" [ -i <ignore dir> ]`
+ * @purpose Generate a README using any child code files of the current directory.
+ * @usage ```bash
+ 		  node generate -m "<mainFile.js>" [ -i <ignore dir> ]
+ 		  ```
  * @options ##### `--mainFile`
  *			Alias: `-m` Type: `string` Required: `true`
  *			The relative location of the main file to your code. This will be the file whose code comments supply application metadata.
