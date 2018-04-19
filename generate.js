@@ -1,5 +1,6 @@
 /**
  * @title README Generator
+ * @logo readme.gif
  * @description Auto-generate a beautiful README for a project based on its code comments.
  * This very README was generated from readme-generator!
  * Supports any language that uses star comments.

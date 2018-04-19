@@ -1,5 +1,7 @@
 # README Generator
 
+![logo](readme.gif)
+
 Auto-generate a beautiful README for a project based on its code comments.
 
 This very README was generated from readme-generator!
@@ -15,7 +17,7 @@ npm i -g readme-generator
 
 ###### [generate.js](generate.js)
 
-### [`generate [command]`](generate.js#L14)
+### [`generate [command]`](generate.js#L15)
 Generate a README using any child code files of the current directory.
 
 #### Usage
@@ -42,4 +44,6 @@ generate -m mainFile.js -i ./node_modules`
 ```
 Would create documentation in the README for all files in the current directory and child directories EXCEPT anything in node_modules.
 
+
+###### [readme.gif](readme.gif)
 
