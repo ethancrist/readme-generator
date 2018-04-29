@@ -184,7 +184,7 @@ function getFileDoc(fileName, fileContents) {
     	
     	if (!thisVarData.meta) continue;
 
-        fileDoc += '### [`'+variables[v]+'`]('+fileName+'#L'+thisVarData.meta.line+')\n';
+        fileDoc += '---\n### [`'+variables[v]+'`]('+fileName+'#L'+thisVarData.meta.line+')\n';
 
         var variableTags = Object.keys(thisVarData);
         for (var i = 0; i < variableTags.length; i++) {

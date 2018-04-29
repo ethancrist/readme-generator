@@ -17,6 +17,7 @@ npm i -g readme-auto
 
 ###### [generate.js](generate.js)
 
+---
 ### [`generate [command]`](generate.js#L15)
 Generate a README using any child code files of the current directory.
 

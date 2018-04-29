@@ -1,5 +1,6 @@
 #!/bin/bash
 nodejs generate -m generate.js -i ./.git ./node_modules .publish package.json documentme.js readme.gif
 mv README.gen.md README.md
+npm version
 git-publish
 
